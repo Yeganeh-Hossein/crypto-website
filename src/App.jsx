@@ -33,9 +33,3 @@ function App() {
 };
 
 export default App;
-
-//Routes
-//  /
-//  /faq
-//  /about
-//  /contact
