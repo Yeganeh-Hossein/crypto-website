@@ -3,9 +3,10 @@ import React from 'react'
 const FAQpage = () => {
     return (
         <div>
-            <h2>faq pages</h2>
-            <h2>faq pages</h2>
-            <h2>faq pages</h2>
+            <h5>faq pages</h5>
+            <h5>faq pages</h5>
+            <h5>faq pages</h5>
+            <h5>faq pages</h5>
         </div>
     );
 };
