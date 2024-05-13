@@ -10,6 +10,6 @@ background: ghostwhite;
 }
 
 .wrapper{
-    background-color: rgb(116, 223, 247);
+   /* background-color: rgb(116, 223, 247);*/
     min-height: calc(100vh - 56px - 24px);
 }
