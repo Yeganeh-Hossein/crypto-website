@@ -13,3 +13,14 @@ background: ghostwhite;
    /* background-color: rgb(116, 223, 247);*/
     min-height: calc(100vh - 56px - 24px);
 }
+
+.AboutImg{
+
+     width: 350px;
+     height: 350px;
+}
+.contactImg{
+
+    width: 350px;
+    height: 350px;
+}
