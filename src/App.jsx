@@ -5,6 +5,7 @@ import Homepage from "./pages/Home.pages";
 import FAQpage from "./pages/FAQ.pages" ;
 import About from "./pages/About.pages";
 import Contact from "./pages/Contact.pages";
+import CoinPage from "./pages/Coin.page";
 function App() {
   return (
     <div>
@@ -16,6 +17,7 @@ function App() {
 
             <Routes>
               <Route  path="/" element={<Homepage/>}/>
+              <Route  path="/coin/:id" element={<CoinPage/>}/>
               <Route path="/faq" element={<FAQpage/>}/>
               <Route path="/About" element={<About/>}/>
               <Route path="/contact" element={<Contact/>}/>
