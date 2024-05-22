@@ -15,8 +15,8 @@ const Homepage = () => {
       .then((response) => {
         setData(response.data);
         setLoading(false);
-        //console.log(response.data);
-        setData(response.data);
+       // console.log(response.data);
+      
       })
       .catch((error) => {
         setError("An error occurred");

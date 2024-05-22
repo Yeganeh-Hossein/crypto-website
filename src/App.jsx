@@ -1,3 +1,4 @@
+import React from "react";
 import FooterComponent from "./components/ui/Footer.component";
 import NAVBARComponent from "./components/ui/Navbar.component";
 import { Route ,Routes } from "react-router-dom" ;
@@ -8,9 +9,10 @@ import Contact from "./pages/Contact.pages";
 import CoinPage from "./pages/Coin.page";
 function App() {
   return (
+     
     <div>
         {/*NAVBAR*/}
-          <NAVBARComponent/>
+        <NAVBARComponent/>
 
         {/*wrapper*/}
           <div className="wrapper">
@@ -32,6 +34,8 @@ function App() {
 
     </div>
   );
-};
+}
 
 export default App;
+
+
