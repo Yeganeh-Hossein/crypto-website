@@ -6,7 +6,7 @@ const CoinsComponent = ({ data }) => {
     <div className=" table-responsive">
     <table className=" table table-hover">
       <thead>
-        <tr>
+        <tr >
           <th scope="col">#</th>
           <th scope="col">Logo</th>
           <th scope="col">Symbol</th>

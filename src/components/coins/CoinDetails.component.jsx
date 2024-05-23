@@ -120,8 +120,8 @@ const CoinDetails = ({ coin }) => {
           </div>
         </div>
       </div>
-      <div className="row">
-        <div className="col-12 coin-details-row">
+      <div className="row coin-details-row">
+        <div className="col-12">
           {/* <p>{coin.description.en}</p> */}
           <p dangerouslySetInnerHTML={{
             __html:coin.description.en
